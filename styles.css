@@ -1,0 +1,192 @@
+.boxA{
+height: 300px;
+width: 500px;
+border: 10px solid floralwhite;
+background-color: rgb(12, 238, 181);
+position: relative;
+}
+
+.boxB{
+height: 300px;
+width: 500px;
+border: 10px solid floralwhite;
+background-color: rgb(108, 71, 209);
+position: absolute;
+
+}
+
+.boxC{
+height: 600px;
+width: 200px;
+border: 10px solid floralwhite;
+background-color: rgb(230, 206, 100);
+position: absolute;
+
+}
+
+.boxS{
+    height: 100px;
+    width: 100px;    
+    background-color: rgb(248, 250, 250);
+    position: fixed;
+    left: 200px;
+    top: 250px;
+    
+    }
+
+.stickA{    
+    position: sticky;
+    top: 50%;
+}
+
+.stickB{
+    position: sticky;
+    top: 50%;
+}
+
+.stickC{
+    position: sticky;
+    top: 50%;
+}
+
+.stickS{
+    position: sticky;
+    top: 50%;
+}
+
+
+
+main {
+    height: 2300px;
+    width: 800px;
+}
+ 
+.boxA {
+    height: 300px;
+    width: 500px;
+    border: 10px solid white;
+    background-color: #75c5ad;
+    position: relative;
+}
+ 
+.labelA {
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 150px;
+}
+ 
+.boxB {
+    height: 600px;
+    width: 200px;
+    border: 10px solid white;
+    background-color: #e79f67;
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
+ 
+.labelB {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+ 
+.boxC {
+    height: 300px;
+    width: 500px;
+    border: 10px solid white;
+    background-color: #7570b2;
+    position: absolute;
+}
+ 
+.labelC {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+ 
+.boxTooltip {
+    height: 100px;
+    width: 100px;    
+    background-color: white;
+    position: fixed;
+    left: 200px;
+    top: 250px;
+}
+ 
+.labelTooltip {
+    color: #7570b2;
+    text-align: center;
+    line-height: 1px;
+    position: relative;
+    top: 50%;
+}
+ 
+.wrapper{
+    margin-top: 400px;
+    margin-left: 10px;
+}
+ 
+.box1 {
+    height: 200px;
+    width: 500px;
+    background-color: #f7cb2a;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+}
+ 
+.label1 {
+    text-align: center;
+    line-height: 1px;
+    position: relative;
+    top: 50%;
+}
+ 
+.box2 {
+    height: 100px;
+    width: 250px;
+    background-color: #00407b;
+    border: 1px solid black;
+    position: relative ;
+    left: 500px;
+    top: -200px;
+}
+ 
+.label2 {
+    line-height: 1px;
+    position: relative;
+    top: 90%;
+}
+ 
+.box3 {
+    height: 100px;
+    width: 250px;
+    background-color: #469c08;
+    border: 1px solid black;
+    position: relative ;
+    top: -100px;
+}
+ 
+.label3 {
+    text-align: end;
+}
+ 
+.box4 {
+    height: 200px;
+    width: 500px;
+    background-color: #f25038;
+    border: 1px solid black;
+    position: relative;
+    top: -300px;
+    left: 250px;
+}
+ 
+.label4 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
